@@ -1,0 +1,13 @@
+/* Design tokens – imported into app.css */
+:root {
+  --color-bg: #0f0f14;
+  --color-surface: #1a1a24;
+  --color-border: #2a2a3a;
+  --color-text: #e8e8ed;
+  --color-muted: #8888a0;
+  --color-accent: #7c6cf6;
+  --color-accent-dim: #5a4dc9;
+  --font-sans: system-ui, -apple-system, sans-serif;
+  --radius: 12px;
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+}
