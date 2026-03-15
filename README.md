@@ -50,8 +50,10 @@ The transformation pipeline:
    - **postcss-nesting** - flattens nested rules from `components.css`
      into separate selectors. For example, `.card { &:hover { ... } }`
      becomes `.card:hover { ... }` in the output.
-   - **Autoprefixer** - adds vendor-prefixed declarations where needed
-     (e.g. `-webkit-background-clip` alongside `background-clip`).
+   - **Autoprefixer** — adds vendor-prefixed declarations where needed
+      for broader browser support. For example, it can add `-webkit-`
+      prefixes to properties like `user-select` or `appearance` automatically,
+      without requiring manual authoring.
 
 4. **Source maps** - `devtool: 'source-map'` in Webpack config combined
    with `sourceMap: true` on both `css-loader` and `postcss-loader`
