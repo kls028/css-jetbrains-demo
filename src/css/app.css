@@ -1,6 +1,3 @@
-/* Main CSS entry – bundles variables, base, and components via @import.
-   Build output will not match this 1:1; source maps point back to originals. */
-
 @import './variables.css';
 @import './base.css';
 @import './components.css';
